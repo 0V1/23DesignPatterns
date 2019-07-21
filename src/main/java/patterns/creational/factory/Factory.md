@@ -1,5 +1,13 @@
 * 三种工厂模式的UML类图
-    
+    ##### 简单工厂模式  
+    ![simplefactory.png](src/main/java/patterns/creational/factory/simplefactory/simplefactory.png)  
+
+    ##### 工厂模式  
+    ![simplefactory.png](src/main/java/patterns/creational/factory/factorymethod/factorymethod.png)  
+        
+    ##### 抽象工厂模式  
+    ![simplefactory.png](src/main/java/patterns/creational/factory/abstractfactory/abstractfactory.png)  
+
 * 产品族和产品等级之间的关系
     > 产品族：相同品牌的不同产品的维度   
      产品等级：相同产品不同品牌的维度

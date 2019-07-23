@@ -6,5 +6,5 @@
 
 
 #### 画出类关系图
-![Delegate.png](/src/main/java/patterns/behavioral/delegate/delegate.png)
+![Delegate.png](/src/main/java/patterns/behavioral/delegate/Delegate.png)
 

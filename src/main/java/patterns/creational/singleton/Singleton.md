@@ -24,8 +24,11 @@
     * ### 序列化
         > 如何破坏：通过文件对象流先将实例化对象写进磁盘，然后在读出来
         防止方法：覆写【readResolve】防止对象序列化后再反序列化成不同的对象，JDK考虑到单例被破坏的场景，提前预制该方法
+    * ### 克隆
+        > 如何破坏：对单例对象的拷贝  
+        防止方法：实现Cloneable接口，覆写【clone()】或者覆写【readResolve()】
 * ## 梳理内部类的执行逻辑，并画出时序图。
-    ![lazyInnerClassLoader.png](/src/main/java/patterns/creational/singleton/lazy/lazyInnerClassLoader.png)  
+    ![lazyInnerClassLoader.png](/src/main/java/patterns/creational/singleton/lazy/lazyInnerClassLoader.png)     
 
 
 

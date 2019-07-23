@@ -5,8 +5,6 @@
     > 以Delegate结尾 一般都是委派模式，或者Dispatcher开头的
 
 
-#### 2、思考：为什么JDK动态代理中要求目标类实现的接口数量不能超过65535个？
+#### 画出类关系图
+    ![Delegate.png](/src/main/java/patterns/behavioral/delegate/delegate.png)
 
-
-
-#### 3、结合自身的业务场景用代理模式进行重构。

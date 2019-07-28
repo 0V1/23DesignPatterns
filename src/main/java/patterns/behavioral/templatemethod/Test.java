@@ -1,4 +1,4 @@
-package patterns.behavioral.templateMethod;
+package patterns.behavioral.templatemethod;
 
 public class Test {
 
